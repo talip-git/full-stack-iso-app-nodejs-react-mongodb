@@ -37,7 +37,7 @@ function AdminForm({dispatch,standards,handleLogout}) {
                 <select name="standardType" id="select" className = "form-control"  value = {standardType} onChange = {e=>setStandardType(e.target.value)}>
                     <option value="">Please Select One!</option>
                     <option value="ISO27000">ISO 27000</option>
-                    <option value="ISO9700">ISO 9700</option>
+                    <option value="ISO97001">ISO 9700</option>
                 </select>
                 <label htmlFor="number">Clause Number: </label>
                 <input type="text" name="number" id="number" className = "form-control"  value = {number} onChange = {e=>setNumber(e.target.value)}/>
